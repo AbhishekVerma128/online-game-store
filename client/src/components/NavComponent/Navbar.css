@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    align-items:center ;
+    width: 100%;
+    background-color: cadetblue;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+h1:hover{
+cursor: pointer;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.icon:hover{
+    cursor: pointer;
+}

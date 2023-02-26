@@ -1,0 +1,20 @@
+.item-main{
+    width:80%;
+    margin: 80px auto
+}
+
+.item-container{
+    display:flex;
+    flex-wrap:wrap;
+    /* column-gap: 40px */
+}
+.div-img{
+    flex:1 1 40%;
+     margin-bottom: 40px;
+     object-fit: contain;
+}
+
+.action-div{
+    flex:1 1 50% ;
+    margin-bottom: 40px;
+}
